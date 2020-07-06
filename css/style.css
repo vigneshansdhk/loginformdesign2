@@ -1,0 +1,236 @@
+body{
+    background: linear-gradient(#00c6ff,#0072ff );
+    height: 625px;
+}
+.first{
+    height: 500px;
+    background-color: white;
+    width: 600px;
+    float: right;
+    margin: 55px 40px 10px 0;
+}
+.title{
+    float: left;
+    margin-top: 160px;
+    font-family: 'Zilla Slab', serif;
+}
+.cls1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    margin-left: 80px;
+}
+.cls2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    margin-left: 60px;
+}
+.cls3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    margin-left: 65px;
+}
+.cls4{
+    margin-left: 30px;
+    font-size: 33px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-top: 63px;
+    font-family: 'Actor', sans-serif;
+}
+.cls4::first-letter{
+    border: none;
+    border-bottom: 3px solid black;
+}
+.cls5{
+    margin-top: 10px;
+    font-weight: 500;
+    color: grey;
+    margin-left: 30px;
+    word-spacing: 7px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+form{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+input[type= text]{
+    border: none;
+    border-bottom: 1px solid #40403c;
+    width: 250px;
+    margin-left: 20px;
+}
+.lab{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 500;
+}
+.lab2{
+    margin-left: 195px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 500;
+    
+}
+.lab3{
+    margin-left: 235px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 500;
+}
+.end{
+    background-color: #009FFF;
+    width: 150px;
+    border: none;
+    margin-top: 71px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 20px; 
+}
+.hide{
+    display: none;
+}
+@media(max-width:360px){
+    body{
+        width: 360px;
+    }
+    .cls1{
+        font-size: 29px;
+        margin-left: -2px;
+        margin-top: -124px;
+    }
+    .cls2{
+        font-size: 30px;
+        margin-right: 75px;
+    }
+    .cls3{
+        font-size: 30px;
+        margin-right: 82px;
+        margin-left: 76px;
+    }
+    .first{
+        width: 285px;
+        height: 631px;
+    }
+    form{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+    .lab2{
+        margin-left: 20px;
+    }
+    .lab3{
+        margin-left: 20px;
+    }
+    .end{
+        margin-top: 30px;
+    }
+}
+@media(max-width:411px){
+    .cls1{
+        font-size: 30px;
+        margin-right: 78px;
+    }
+    .cls2{
+        padding-right: 105px;
+        font-size: 30px;
+    }
+    .cls3{
+        font-size: 30px;
+        margin-right: 74px;
+    }
+    form{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+    .first{
+        width: 352px;
+        height: 622px;
+    }
+    .lab2{
+        margin-left: 20px;
+    }
+    .lab3{
+        margin-left: 25px;
+    }
+    .first{
+        height: 646px;
+    }
+    .end{
+        margin-top: 41px
+    }
+    .cls1{
+        margin-top: 0px;
+        font-size: 33px;
+    /* margin-right: 107px; */
+        margin-left: -154px;
+    }
+}
+@media(max-width:768px){
+     .title{
+        margin-top: 20px;
+       margin-left: 97px;
+     }
+     .first{
+        margin-top: 4px;
+        height: 464px;
+        margin-right: 80px;
+     }
+     .title{
+        margin-top: -41px;
+        margin-left: 179px;
+     }
+}
+@media(max-width: 1024px){
+     .cls1{
+        font-size: 40px;
+        margin-left: 20px;
+     }
+     .cls2{
+        font-size: 40px;
+        margin-left: 20px;
+     }
+     .cls3{
+        font-size: 40px;
+        margin-left: 20px;
+     }
+     body{
+        height: 748px;
+        margin-top: 92px;
+     }
+}
+@media(max-width:375px){
+    .cls1{
+        margin-top: -44px;
+        font-size: 31px;
+        margin-left: 22px;
+    }
+    .cls2{
+        margin-left: 25px;
+        font-size: 32px;
+    }
+    .cls3{
+        font-size: 31px;
+    }
+    .first{
+        width: 286px;
+        margin-right: 40px;
+        height: 623px;
+    }
+    .title{
+        margin-left: 20px;
+    }
+}
